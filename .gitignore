@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+
+# Local Netlify folder
+.netlify
+
+# Python virtual environments & bytecode
+venv/
+backend/venv/
+backend/venv_yolo/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Machine learning model weights (>100MB blocked by GitHub)
+*.pt
+*.pth
+*.onnx
+
+# Uploaded video media and debug dumps
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/debug_output/
+debug_output/
+uploads/
+
